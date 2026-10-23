@@ -33,7 +33,8 @@
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 76
         }
-      ]
+      ],
+      "expo-sqlite"
     ],
     "experiments": {
       "typedRoutes": true,
@@ -42,7 +43,7 @@
     "extra": {
       "router": {
         "asyncRoutes": {
-          "web": true
+          "web": false
         }
       },
       "eas": {
